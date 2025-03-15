@@ -5,6 +5,7 @@
 set -e
 
 export SKIP_BUILD=1
+
 cd `dirname $0`
 test_dir=`pwd`
 echo "starting test with SKIP_BUILD=\"${SKIP_BUILD}\" and DO_VALIDATE=\"${DO_VALIDATE}\""
